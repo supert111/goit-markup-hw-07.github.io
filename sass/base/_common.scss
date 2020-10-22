@@ -11,4 +11,14 @@ img {
 .link {
 text-decoration: none;
 }
-  
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  /* body Текст размер */
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.714;
+  }
