@@ -45,24 +45,10 @@
 
 
 /* ======= Site nav and Header ======= */
-.company-header {
-  border-bottom: 1px solid #ECECEC;
-}
 
-.webstudio-nav .link,
-.logo {
-  color: var(--title-text-color);
-}
 
-.webstudio-nav .link:hover,
-.webstudio-nav .link:focus { 
-  color: var(--accent-color); 
-}
-.webstudio-nav .link {
-  position: relative;
-  padding: 32px 0px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+
   
 .webstudio-nav .active { 
   color: var(--accent-color);
@@ -126,18 +112,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: var(--accent-color);
 } 
 
-/* Site nav Текст размер */
-.webstudio-nav {
-  width: 294px;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.143;
-  /* Бллочная модель + flex */
-  display: flex;
-  margin: 0px;
-  padding: 0px;
-}
+
 .address-nav {
   font-size: 14px;
   font-weight: 500;
@@ -152,9 +127,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   align-items: center;
 }
-.webstudio-nav .item:not(:last-child) { 
-margin-right: 50px;
-}
+
 .address-nav a.link:not(:last-child) { 
   margin-right: 50px;
 }

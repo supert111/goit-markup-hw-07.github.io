@@ -10,11 +10,14 @@
     padding-top: 24px;
     padding-bottom: 25px;
     margin-right: 93px;
-    }
+    color: var(--title-text-color);
+    
     /* logo Цвет */
-    .color-web {
+    &-web {
       color: var(--accent-color);
     }
-    .color-studio {
+  
+    &-studio {
       color: var(--primary-white-color);
     }
+  }
