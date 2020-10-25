@@ -1,0 +1,53 @@
+.address-nav {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.143;
+    /* Бллочная модель + flex */
+    display: flex;
+    margin: 0px;
+    padding: 32px 0px;
+    margin-left: auto;
+    align-items: center;
+  
+    .link:not(:last-child) { 
+        margin-right: 50px;
+    }
+    .link {
+        color: var(--primary-text-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+ }
+   /* address Текст размер  */
+   .address-nav {
+   
+    &,
+    &-footer {
+     font-style: normal;
+ }
+    .link:hover,
+    .link:focus {  
+        color: var(--accent-color); 
+        fill: var(--accent-color);
+    } 
+}
+
+.icon-address {
+    fill: var(--primary-text-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+   .mail &,
+   .telefon & {
+    margin-right: 10px;
+   }
+  
+      &:hover,
+      &:focus,
+      .mail:hover &, 
+      .mail:focus &,
+      .telefon:hover &,
+      .telefon:focus & {  
+    color: var(--accent-color); 
+    fill: var(--accent-color);
+  } 
+}
