@@ -1,6 +1,6 @@
 .hero {
-    background-color: var(--hero-background-color);
-    padding: 200px 0px;
+    background-color: $color-hero-background;
+    padding: 200px 0;
     text-align: center;
     /* Фон єлемента */
     max-width: 1600px;
@@ -17,15 +17,15 @@
     background-size: cover;
   
     &-title {
-         color: var(--primary-white-color);
-         /* Hero Текст размер*/
+         color: $color-primary-white;
+         /* Hero text size*/
         width: 696px;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.364;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        /*Hero Блочная модель*/
+        /*Hero Block model*/
          margin: 0 auto 30px;
     }
 }

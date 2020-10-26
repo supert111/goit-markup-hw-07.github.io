@@ -3,25 +3,25 @@
 
   /* Section title h2*/
   &-title {
-    color: var(--title-text-color);
+    color: $color-title-text;
     padding-top: 94px;
   
-    /* Section title h2 Текст размер */
+    /* Section title h2 text size */
     font-weight: 700;
     font-size: 36px;
     line-height: 1.167;
   
-  /* section-title Блочная модель + flex */ 
-    margin: 0px auto 50px;
+  /* section-title Block model + flex */ 
+    margin: 0 auto 50px;
     text-align: center;
   }
   /* Section title h3*/
     .item-title {
-    color: var(--title-text-color);
+    color: $color-title-text;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.189;
-    /* Блочная модель + flex */
-    margin: 0px 0px 10px;
+    /* Block model + flex */
+    margin: 0 0 10px;
   }
 }

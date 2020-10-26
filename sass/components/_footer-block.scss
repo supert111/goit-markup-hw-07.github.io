@@ -7,18 +7,18 @@
     margin-right: 70px;
   }
   .address-footer {
-    color: var(--primary-white-color);
-    margin: 20px 0px 9px;
+    color: $color-primary-white;
+    margin: 20px 0 9px;
     width: 231px;
     height: 21px;
   }
 
   .address-nav-footer .link {
-    color: var(--secondary-text-color);
+    color: $color-secondary-text;
     display: block;
   }
   
-  /* footer Текст размер p */
+  /* footer text size p */
    .title-social-links,
    .title-footer-form {
     display: block;
@@ -26,6 +26,6 @@
     font-size: 14px;
     line-height: 1.143;
     text-transform: uppercase;
-    margin: 0px 0px 20px;
-    color: var(--primary-white-color);
+    margin: 0 0 20px;
+    color: $color-primary-white;
   }

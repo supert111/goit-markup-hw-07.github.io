@@ -1,6 +1,6 @@
 .logo-customers {
     display: flex;
-    border: 1px solid var(--leter-icon-color);
+    border: 1px solid $color-leter-icon;
     width: 170px;
     height: 90px;
     border-radius: 4px;
@@ -10,9 +10,9 @@
   
     &:hover,
     &:focus{
-    border: 1px solid var(--accent-color);
+    border: 1px solid $color-accent;
 }
     &:hover .icon-customers {
-    fill: var(--accent-color);
+    fill: $color-accent;
 }
 }

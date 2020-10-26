@@ -9,11 +9,10 @@
   font-size: 20px;
   line-height: 1.15;
   margin-bottom: 12px;
-  color: var(--title-text-color)
+  color: $color-title-text;
  }
   .button.primary {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
  }
 }
   .name-label {
@@ -21,7 +20,7 @@
     font-size: 12px;
     line-height: 1.167;
     letter-spacing: 0.01em;
-    color: var(--primary-text-color);
+    color: $color-primary-text;
     margin-bottom: 4px; 
   }
 .form-input {
@@ -50,7 +49,7 @@
   &:focus,
   &-message:hover,
   &-message:focus {
-    border-color: var(--accent-color);
+    border-color: $color-accent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   &-message::placeholder {
@@ -81,7 +80,7 @@
    
     &:hover .icon-form-size,
     &:focus-within .icon-form-size {
-    fill: var(--accent-color);
+    fill: $color-accent;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -97,11 +96,11 @@
     overflow: hidden;
   
     &:checked + .form-checkbox-label::before {
-        background-color: var(--accent-color);
+        background-color: $color-accent;
         background-image: url(../images/icon-check22.svg);
         background-size: contain;
         background-origin: border-box;
-        border-color: var(--accent-color);
+        border-color: $color-accent;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
         border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -117,15 +116,15 @@
         display: inline-block;
         width: 16px;
         height: 15px;
-        border: 2px solid var(--title-text-color);
-        background-color: var(--primary-white-color);
+        border: 2px solid $color-title-text;
+        background-color: $color-primary-white;
         border-radius: 4px;
         margin-right: 7px;
   }
 }    
   
 .form-privacy-link {
-  color: var(--accent-color);
+  color: $color-accent;
   margin-left: 3px;
 
   &::before {
@@ -133,7 +132,7 @@
     content: "";
     display: inline-block;
     width: 127px;
-    color: var(--accent-color);
+    color: $color-accent;
     height: 5px;
     border-bottom: 1px;
     border-bottom-style: solid;

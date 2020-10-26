@@ -1,6 +1,6 @@
 .list {
     list-style: none;
-    padding-left: 0px;
+    padding-left: 0;
     margin: 0px auto;
 }
 
@@ -8,8 +8,8 @@ img {
   display: block;
 }
 
-.img-ramka {
-  border-radius: 0px;
+.img-frame {
+  border-radius: 0;
 }
   
 .link {
@@ -17,10 +17,10 @@ text-decoration: none;
 }
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
+  background-color: $color-primary-white;
+  color: $color-primary-text;
 
-  /* body Текст размер */
+  /* body text size */
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;

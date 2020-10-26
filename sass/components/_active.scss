@@ -1,5 +1,5 @@
 .webstudio-nav .active { 
-    color: var(--accent-color);
+    color: $color-accent;
   }
   .active::after {
     position: absolute;
