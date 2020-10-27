@@ -259,15 +259,15 @@ body {
 }
 
 .mail .icon-address,
-.telefon .icon-address {
+.phone .icon-address {
   margin-right: 10px;
 }
 
 .icon-address:hover, .icon-address:focus,
 .mail:hover .icon-address,
 .mail:focus .icon-address,
-.telefon:hover .icon-address,
-.telefon:focus .icon-address {
+.phone:hover .icon-address,
+.phone:focus .icon-address {
   color: #2196F3;
   fill: #2196F3;
 }

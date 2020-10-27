@@ -36,7 +36,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
    .mail &,
-   .telefon & {
+   .phone & {
     margin-right: 10px;
    }
   
@@ -44,8 +44,8 @@
       &:focus,
       .mail:hover &, 
       .mail:focus &,
-      .telefon:hover &,
-      .telefon:focus & {  
+      .phone:hover &,
+      .phone:focus & {  
     color: $color-accent; 
     fill: $color-accent;
   } 
